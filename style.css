@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    background-color: rgb(61, 59, 59);
+    color: #fff;
+    text-align: center;
+    margin: 2.5rem 0;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+select, button{
+    margin: 2rem 0;
+    padding: 10px;
+    background-color: rgb(61, 59, 59);
+    color: #fff;
+    font: 100 1.2rem sans-serif;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .5s;
+    
+}
+select:hover,button:hover{
+    background-color: rgb(59, 57, 57);
+    border-radius: 10%;
+}
