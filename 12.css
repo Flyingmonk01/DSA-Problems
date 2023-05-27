@@ -25,20 +25,25 @@ form{
 }
 
 input,textarea,button{
-    margin: 0.5rem;
+    margin: auto;
     padding: 10px;
     border: 1px solid rgba(0,0,0,0.2);
-    font: 100 1.1rem;
+    font-size: 1.3rem;
     border-radius: 5px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     outline: none;
+    width: 80%;
+    margin-top: 1rem;
+}
+textarea{
+    min-height: 200px;
 }
 
 button{
     background-color: #0d6efd;
     color: #fff;
     font: 1000 1.2rem;
-    width: 40%;
+    width: 20%;
     margin: auto;
     margin-top: 1rem;
     transition: background-color .3s;
@@ -56,10 +61,11 @@ button:hover{
 .task{
     margin: 2vmax;
     display: flex;
-    font: 300 1.1rem sans-serif;
+    font: 700 1.35rem sans-serif;
     padding: 30px;
     color: rgba(0,0,0,0.868);
     align-items: center;
+    border: 3px solid rgba(0,0,0,0.2);
 }
 
 .task > div{
@@ -69,7 +75,8 @@ button:hover{
 
 
 .task span{
-    color: rgb(134, 130, 130);
+    font: 500 1.1rem Verdana;
+    color: rgb(64, 62, 62);
 }
 
 #delete{
